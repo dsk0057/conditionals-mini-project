@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+
+'''A simple quiz to guess the capital of a random country'''
+
 import csv
 import random
 from colorama import Fore, Back, Style
