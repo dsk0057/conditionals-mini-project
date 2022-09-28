@@ -12,7 +12,7 @@ with open("countries.csv", "r") as data:
 
     # iterate through reader and put the data in dictionary form
     dict_country_capital = {rows[0]: rows[1] for rows in reader}
-    print(dict_country_capital)
+    # print(dict_country_capital)
 
 # convert the dictionary into list for easier manipulation
 country_capital_list = list(dict_country_capital.items())
